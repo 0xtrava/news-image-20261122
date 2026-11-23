@@ -1,9 +1,13 @@
 // news-image-20261122: entry for make.fun's "Sum up 22 November's world
 // news in one image" bounty.
 //
-// The entry image lives beside this file as entry.png. It is a JPEG by its
-// first bytes, which the rules allow under the entry.png name. This program
-// copies it, byte for byte, to /output/entry.png -- or to MAKEFUN_OUTPUT_DIR
+// v2: a newspaper front page on cream paper, composed at 1024x1024 as a PNG.
+// A dominant hero leads it — delegates walking out of the Antalya summit
+// hall at golden hour as COP31 collapses — above six photo stories (the
+// Hormuz tankers, Khartoum, the Cikande fire, the Delta outage, the
+// Democrats taking the House) and three text briefs. Every story happened,
+// or was first reported, on Sunday 22 November 2026. This program copies
+// entry.png, byte for byte, to /output/entry.png -- or to MAKEFUN_OUTPUT_DIR
 // when that is set, for local runs. No network, no dependencies: Node 22
 // standard library only.
 //
